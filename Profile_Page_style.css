@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{   /* this is known as the wild card...this was created to help me see where my boxes were and to keep track of my layout and where I am in the process*/
+    font-family: 'Roboto', sans-serif;
+}
+#white-text{
+    color: white;
+}
+body{
+    background-color: #212121;
+}
+.thin-border{
+    border: lightgrey solid 2px;
+}
+#ind-border{
+    border: lightgrey solid 4px;
+}
+.img-med{
+    width: 50px;
+}
+.flex{   /*this class was created to keep the code dry and concise and allows me to simply add this class to multiple elements w/o having to retype the same 3 set "amigos" every single time*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#graytext{
+    color: gray;
+}
+.flexstart{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main{
+    background-color: white;
+}
+.nav-main{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.nav-bar{
+    background-color: black;
+    width: 800px; /*this was initially set to a width of 800px to match with sub-main; however, want nav-bar to extend to the entire top part of the page*/
+    margin: 0 auto;
+    height: 60px;
+    /*margin-bottom: 50px;*/
+}
+.nav-left{
+    /* margin-left: 75.5px; */
+}
+.nav-title{
+    color: white;
+    /* margin-left: 10px; */
+}
+.nav-links{
+    gap: 20px;
+    color: lightgray;
+    list-style: none;
+    text-align: left;
+}
+.btn {
+    color: white;
+    background-color: cadetblue;
+    font-size: large;
+    border-style: solid;
+    }
+.sub-main{
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.left-column{
+    align-self: flex-start;
+    flex: 2;
+}
+.right-column{
+    flex: 1;
+    align-self: flex-start;
+}
+/*Jane Doe Profile card begins here*/
+.jane-doe{
+    background-color: white;
+    margin-bottom: 25px;
+}
+.jname{
+    margin-top: 45px;
+    margin-left: 6px;
+    /*I may not need this class however will hold onto to it for now in case I need it later*/
+}
+.jheader{
+    background-color: lightseagreen;
+    height: 106px;
+}
+.img-profile{
+    width: 106px;    
+    margin-top: 50px;
+    margin-left: 25px;
+    border-radius: 50%;
+    border: black solid 5px;
+}
+.cardcontent{
+    padding: 20px;
+}
+.jpar{
+    margin-top: -21px;
+}
+.seattle{
+    margin-top: -26px;
+}
+.loc-marker{
+    width: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.gear-marker{
+    width: 15px;
+    margin-left: 10px;
+}
+/*Your Connections begin here*/
+.your-cs{
+    background-color: white;
+    margin-bottom: 10px;
+}
+#your-cs-header{
+    background-color: #212121;
+    height: 50px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    font-family: Roboto;
+}
+/*Connection Requests CSS begins here*/
+.c-req-header{
+    background-color: #212121;
+    height: 50px;
+    color: white;
+    font-size: .9em;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+.c-req-head-title{
+    font-family: ;
+}
+.c-requests{
+    background-color: white;
+    margin-bottom: 25px;
+}
+.img-small{
+    width: 30px;    
+}
+.close-img{
+    margin-right: 10px;
+}
+/*Education CSS begins here*/
+.education{
+    background-color: white;
+}
+.edheader{
+    background-color: #212121;
+    height: 50px;
+    color: white;
+    padding-left: 20px;
+    font-family: Roboto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.edcontent{
+    line-height: 10px; /*look into this further of how to change the line height*/
+    font-family: Roboto;
+    border: 5px;
+    border-color: lightgray;
+    padding-left: 10px
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="Profile_Page_style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav-main flex">
+            <div class="nav-bar flex">
+                <div class="nav-left flex">
+                    <strong>
+                        <h1 class="nav-title">Profile</h1>
+                    </strong>
+                    <div class="nav-right flex">
+                        <ul class="nav-links flex">
+                            <li>Home</li>
+                            <strong>
+                                <li id="white-text">My Profile</li>
+                            </strong>
+                            <!--the text in this element is supposed to be white not gray-->
+                            <li>Find Connections</li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="btn">Sign Out</button>
+            </div>
+        </div>
+        <div class="sub-main flex">
+            <div class="left-column">
+                <div id="ind-border" class="jane-doe">
+                    <header class="jheader">
+                        <img class="img-profile" src="profile_avatar_icon.png" alt="profile avatar icon">
+                    </header>
+                    <div class="cardcontent">
+                        <h1 class="jname">Jane Doe</h1>
+                        <div class="flexstart seattle">
+                            <img class="loc-marker" src="location_marker_icon.png" alt="location marker icon">
+                            <h3>Seattle</h3>
+                        </div>
+                        <div class="jpar">
+                            <p>Developer | Engineer | Problem Solver</p>
+                            <p>Master of shadows and the Internet!</p>
+                        </div>
+                        <div>
+                            <img class="gear-marker" src="./ settings icon.png" alt="setting gear icon">
+                            <a href="www.google.com">edit profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="ind-border" class="education">
+                    <header class="edheader">
+                        <h3>Education</h3>
+                    </header>
+                    <div class="edcontent">
+                        <strong>
+                            <p>Coding Dojo-Full Stack Bootcamp</p>
+                        </strong>
+                        <p id="graytext">Dec 2019-Mar 2020</p>
+                        <p>Triple black belt in Python, MERN, and C#...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-column">
+                <div id="ind-border" class="c-requests">
+                    <header class="c-req-header flex">
+                        <img class="img-med" src="number_two_in_circle_icon.png" alt="grey circle with number two icon">
+                        <h3 class="c-req-head-title">Connection Requests</h3>
+                        <!--Note: all items in header must be side by side-->
+                    </header>
+                    <div class="right-column flex">
+                        <!--this was previously flexstart-->
+                        <div class="flexstart">
+                            <img class="img-small" src="profile_avatar_icon.png" alt="profile avatar icon">
+                            <p>Todd E</p>
+                        </div>
+                        <div>
+                            <img class="img-small" src="accept-circle.png" alt="accept circle icon">
+                            <img class="img-small close-img" src="close-circle.png" alt="close circle icon">
+                        </div>
+                    </div>
+                    <div class="left-column flex">
+                        <!--this was previously flexstart-->
+                        <div class="flexstart">
+                            <img class="img-small" src="profile_avatar_icon.png" alt="profile avatar icon">
+                            <p>Phil K</p>
+                        </div>
+                        <div>
+                            <img class="img-small" src="accept-circle.png" alt="accept circle icon">
+                            <img class="img-small close-img" src="close-circle.png" alt="close circle icon">
+                        </div>
+                    </div>
+                </div>
+                <div id="ind-border" class="your-cs">
+                    <header id="your-cs-header" class="flex">
+                        <img class="img-med" src="fivehundred_plus_roboto.png" alt="five hundred plus icon">
+                        <!--Note: do not use numbers in file names-filenames with words only are easier to find for vs code-->
+                        <h3 class="">Your Connections</h3>
+                    </header>
+                    <div class="flexstart">
+                        <img class="img-small" src="profile_avatar_icon.png" alt="profile avatar icon">
+                        <!--I could have made all of the names into a list and just named list style "none" to remove bullets-->
+                        <p>Adrien D</p>
+                    </div>
+                    <div class="flexstart">
+                        <img class="img-small" src="profile_avatar_icon.png" alt="profile avatar icon">
+                        <p>Anne J</p>
+                    </div>
+                    <div class="flexstart">
+                        <img class="img-small" src="profile_avatar_icon.png" alt="profile avatar icon">
+                        <p>Alayne T</p>
+                    </div>
+                    <div class="flexstart">
+                        <img class="img-small" src="profile_avatar_icon.png" alt="profile avatar icon">
+                        <p>Arry Y</p>
+                    </div>
+                    <div class="thin-border"><a href="www.google.com">View More</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
